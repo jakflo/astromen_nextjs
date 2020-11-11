@@ -1,0 +1,54 @@
+table.normTab, table.normTab tbody tr, table.normTab tbody th, table.normTab tbody td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+table.normTab tbody th, table.normTab tbody td, input.edit {
+    padding: 2px 7px; 
+    text-align: center;
+    font-size: 17px
+}
+table.normTab tbody th {
+    background-color: #4ddbff;
+}
+table.normTab tbody tr:hover {
+    background-color: #cccccc;
+}
+table.normTab tbody tr.marked {
+    background-color: #00cc44;
+}
+
+.hidden {
+    display: none;
+}
+
+input.edit {
+    margin: 4px 1px;
+}
+
+span.form_error, ul.form_errors li, p.error {
+    font-weight: bold;
+    color: red;
+}
+
+p.notice {
+    font-weight: bold;
+    color: blue;
+}
+
+tr.marked_edit {
+    background-color: #ffff00;    
+}
+tr.marked_delete {
+    background-color: #ff4d4d;    
+}
+
+ul.flash {
+    list-style-type: none;
+    padding: 0;
+}
+ul.flash li {
+    font-weight: bold;        
+}
+ul.flash.notice li {
+    color: blue;
+}
